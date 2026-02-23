@@ -3529,7 +3529,6 @@ img.u-pull-left {
     line-height    : var(--vspace-0_75);
     text-transform : uppercase;
     letter-spacing : .2em;
-    color          : var(--color-text-light);
     margin-top     : -.2rem;
 }
 
@@ -3738,7 +3737,13 @@ img.u-pull-left {
 
 .folio-list__item-cat {
     font-size   : var(--text-sm);
-    color       : var(--color-text-light);
+    color       : var(--color-text);
+    line-height : var(--vspace-0_75);
+    margin-left : .2rem;
+}
+.folio-list__item-desc {
+    font-size   : var(--text-md);
+    color       : var(--color-text);
     line-height : var(--vspace-0_75);
     margin-left : .2rem;
 }
